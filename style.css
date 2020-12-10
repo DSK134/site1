@@ -1,0 +1,534 @@
+body{
+	font-family: sans-serif;
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+.panel{
+	background-color: white;
+	padding-bottom: 70px;
+	padding-top: 30px;
+}
+.navbar{
+	width: 1170px;
+	margin: 0 auto;
+	height: 1px;
+}
+.logo{
+	color: #000;
+	font-size: 30px;
+	text-decoration: none;
+}
+.center{
+	background: url(https://media.discordapp.net/attachments/764439505561583638/770241116456747008/header.jpg?width=676&height=449);
+	padding-top: 180px;
+	padding-bottom: 180px;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+
+
+}
+.nav-list{
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	right: 250px;
+	position: absolute;
+	bottom:666px; 
+}
+.nav-item{
+	display: inline-block;
+	margin-left: 50px;
+}
+.nav-search{
+	height: 25px;
+	display: block;
+	margin-top:10px;
+}
+.nav-link{
+	color:black;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500;
+}
+.white{
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 40px;
+
+}
+.conteiner{
+	width: 1170px;
+	margin: 0 auto;
+}
+.Awesome-card-icon img{
+	height:50px;
+}
+.Awesome-card{
+	flex: 0 0 350px;
+	height: 225px;
+}
+.Awesome-card-text h3{
+	margin: 0;
+	text-align: center;
+}
+.Awesome-card-icon {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.Awesome {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center; 
+}
+.OnePage-card{
+	flex: 0 0 350px;
+	height: 225px;
+
+}
+.OnePage-card-icon img{
+	height:50px;
+}
+.OnePage-card-text{
+	margin: 0;
+	text-align: center;
+}
+.FullyResponsive-card{
+	flex: 0 0 350px;
+	height: 225px;
+}
+.FullyResponsive-card-icon{
+	margin-right: 30px;
+}
+.FullyResponsive-card-text{
+	margin: 0;
+	text-align: center;
+}
+.FullyResponsive-card-icon img{
+	height:50px;
+}
+.Aboutus{
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+.Green{
+	padding-top: 170px;
+	padding-bottom: 120px;
+}
+.Services{
+	text-align: center;
+}
+.grid >*{
+	background-color: white; 
+	padding-top: 60px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:435px 435px;
+	grid-gap:15px;
+}
+.Green{
+	background-color: #e4fdf9;
+}
+.cont{
+	margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+}
+.cell1{
+	text-align: center;
+}
+.Phone{
+	height: 70px;
+	display: block;
+	margin: 0 auto;
+    text-align: center;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+}
+.fi{
+	padding-top: 5px;
+}
+.cell2{
+	text-align: center;
+}
+.cell3{
+	text-align: center;
+}
+.cell4{
+	text-align: center;
+}
+.cell5{
+	text-align: center;
+}
+.cell6{
+	text-align: center;
+}
+.LWorks{
+
+	text-align: center;
+}
+.contthird{
+	padding-top: 120px;
+	padding-bottom: 130px;
+}
+.buttons{
+	padding-top: 40px;
+	text-align: center;
+}
+.gridsecond{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-rows:300px 300px;
+	grid-gap:15px;
+	padding-top: 40px;
+	padding-left: 100px;
+}
+.cell11 {
+	background-color: lightgray;
+}
+.cell12{
+	background-color: lightgray;
+}
+.cell13{
+	background-color: lightgray;
+}
+.cell14{
+	background-color: lightgray;
+}
+.cell15{
+	background-color: lightgray;
+}
+.cell16{
+	background-color: lightgray;
+}
+.price{
+	display: flex;
+	background-color: ;
+	justify-content: space-between;
+}
+.conteiner{
+	width: 1170px;
+	margin: 0 auto;
+
+}
+.Plan{
+	text-align: center;
+}
+.price-card{
+	height: 670px;
+	background-color: white;
+	width: 370px;
+}
+.price-card-heading{
+ background-color: #3949ab;
+ position: relative;
+ text-align: center;
+ height: 205px;
+ padding: 40px;
+ padding-bottom: 65px;
+ clip-path: polygon(0 0, 100% 0, 100% 81%, 0% 100%);
+}
+.price-card-title{
+	font-size:25px;
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-weight: 400;
+	font-family:sans-serif;
+}
+.price-card-price{
+	color: white;
+	font-size: 17px;
+}
+.price-card-price span{
+	color: white;
+	font-size: 50px;
+	font-weight: 400;
+}
+.price-card-price span::before{
+	content: "$";
+	font-size: 25px;
+	vertical-align: top;
+}
+.price-card-body{
+	height: 465px;
+	padding-top: 45px;
+	text-align: center;
+}
+.price-card-list{
+	list-style:none;
+ 	margin: 0;
+ 	padding: 0;
+ 	display: block;
+}
+.price-card-item{
+	margin-bottom: 50px;
+	position: relative;
+}
+.price-card-btn{
+	width: 180px;
+	padding: 15px 0px;
+	font-size: 20px;
+	background: transparent;
+	border-radius: 0;
+	outline: none;
+}
+.price-card-item::after{
+	content: "";
+	display: block;
+	width: 175px;
+	height: 1px;
+	background-color: #212121;
+	position: absolute;
+	left: 50%;
+	bottom: -10px;
+	transform: translate(-50%);
+	opacity: 0.25;
+}
+.PriceS{
+	background-color: #f0f1f1;
+	padding-top: 100px;
+	padding-bottom:100px;
+}
+.price-card:hover{
+	box-shadow:5px 5px 25px 1px #999;
+	transition: 0.3s;
+}
+button{
+	width: 180px;
+	padding: 15px 0px;
+	font-size: 20px;
+	background: transparent;
+	border-radius: 0;
+	outline: none;
+	transition: 0.3s;
+}
+button:hover{
+	background-color: #00897b;
+	border-color: #00897b;
+	color: white;
+}
+.text1{
+	margin-bottom: 100px;
+}
+.center:before{
+	content: "";
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	bottom:0;
+	top:0; 
+	left:0;
+	right:0;
+	z-index: -1;
+}
+#hire{
+	color: white;
+	background-color: #00897b;
+}
+#serviced{
+	color: white;
+}
+.BoxLogo{
+	color: white;
+	font-size: 60px;
+}
+.Boxtext{
+	color: white;
+	font-size: 20px;
+}
+.TeamText{
+	text-align: center;
+}
+.InfoTeam{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 100px;
+}
+.Team{
+	padding: 100px;
+}
+.Team-card-text{
+	text-align: center;
+}
+.Blog-text{
+	text-align: center;
+}
+.Blog-post{
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+}
+.Blog-btn{
+	text-align:center;
+}
+.Contact-text{
+	text-align: center;
+}
+.ContactUS{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.Blog{
+	text-align: center;
+	padding-bottom: 100px;
+}
+.blog-info{
+	width: 50%;
+}
+.Blog-post:nth-of-type(even) .Blog-img{
+	margin-right: 20px;
+}
+.Blog-post:nth-of-type(odd) .Blog-img{
+	margin-left: 20px;
+}
+.Blog-img{
+	width: calc(50% - 20px);
+}
+.blog-info{
+	padding-top: 30px;
+	 bottom: 30px;
+}
+.Blog-btn{
+	margin-top:100px;
+}
+.file{
+	margin-left: 15px;
+}
+.post-descption span img{
+	height: 15px;
+	margin-right: 7px;
+}
+.Blog{
+	/*background-color: lightgreen;*/
+}
+.Blog-text{
+	margin-bottom: 100px;
+}
+.Blog .conteiner{
+	padding-top: 90px;
+}
+.team-list{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.team-item{
+	height: 30px;
+	width: 30px;
+	border-radius: 5px;
+	margin: 0 10px;
+	background-color: #FFFAFA;
+}
+.team-link img{
+	height: 20px;
+}
+.Team-card-icon img{
+	max-width: 100%;
+}
+.Team-card-icon{
+	border-radius: 5px;
+	overflow: hidden;
+}
+.Team-card{
+	margin: 15px;
+}
+.Contact-cards{
+	display: flex;
+	justify-content: space-between;
+}
+.Contact-card{
+	text-align: center;
+}
+.Contact-card-icon{
+	background-color: #4169E1;
+	border-radius:50%;
+	height: 90px;
+	width: 90px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.Contact-card-icon img{
+	height: 50px ;
+}
+.contact-form{
+	display: grid;
+	grid-template-rows: 80px 300px 80px;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+.form-name{
+	grid-column-start:1;
+	grid-column-end:3;
+}
+.form-email{
+	grid-column-start:3;
+	grid-column-end:5;
+}
+.form-comment{
+	grid-column-start:1;
+	grid-column-end:5;
+}
+.form-text{
+	grid-column-start:4;
+	grid-column-end:5;
+}
+.ContactUS{
+	position: relative;
+	z-index: 1;
+}
+.ContactUS:before{
+	position: absolute;
+	content: "";
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+input, textarea{
+	border-radius: 10px;
+	outline: none;
+	border: none;
+}
+.form-comment{
+	padding: 30px 20px;
+}
+input:not([type="submit"]){
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.contact-title{
+	color: white;
+}
+.contact-subtitle{
+	color: white;
+}
+.Contact-text{
+	margin-bottom: 100px;
+}
+.text-descption{
+	color: white;
+}
+.Contact-cards{
+	margin-bottom: 50px;
+}
+.copyright{
+	text-align: center;
+}
